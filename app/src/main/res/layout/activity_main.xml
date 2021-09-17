@@ -6,19 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ian was here" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Jennifer was here"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+    <com.example.tickettoride_upcs.MainView
+        android:id="@+id/mainView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth="match_parent"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintWidth_max="wrap"
+        app:layout_constraintWidth_min="wrap" />
 </androidx.constraintlayout.widget.ConstraintLayout>
