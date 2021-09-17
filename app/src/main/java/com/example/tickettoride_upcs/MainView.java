@@ -5,14 +5,15 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.util.AttributeSet;
 import android.view.SurfaceView;
 
 public class MainView extends SurfaceView {
 
     private Paint color;
 
-    public MainView(Context context) {
-        super(context);
+    public MainView(Context context, AttributeSet atr) {
+        super(context, atr);
         //enable drawing
         setWillNotDraw(false);
 
@@ -25,6 +26,6 @@ public class MainView extends SurfaceView {
     protected void onDraw(Canvas canvas){
 
         Bitmap image = BitmapFactory.decodeResource(getResources(),R.drawable.ticket_to_ride_background);
-        canvas.drawBitmap(image, 200.f, 200.f, color);
+        canvas.drawBitmap(image, 0.f, 0.f, color);
     }
 }
