@@ -72,25 +72,7 @@
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <ImageButton
-                        android:id="@+id/blueTrainHand"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:scaleType="fitXY"
-                        app:srcCompat="@drawable/blue_train_v"
-                        tools:ignore="SpeakableTextPresentCheck" />
-
-                    <ImageButton
-                        android:id="@+id/imageButton12"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:scaleType="fitXY"
-                        app:srcCompat="@drawable/green_train_v"
-                        tools:ignore="SpeakableTextPresentCheck" />
-
-                    <ImageButton
-                        android:id="@+id/imageButton13"
+                        android:id="@+id/orangeTrainHand"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -99,16 +81,7 @@
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <ImageButton
-                        android:id="@+id/imageButton14"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:scaleType="fitXY"
-                        app:srcCompat="@drawable/red_train_v"
-                        tools:ignore="SpeakableTextPresentCheck" />
-
-                    <ImageButton
-                        android:id="@+id/imageButton15"
+                        android:id="@+id/pinkTrainHand"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -117,7 +90,7 @@
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <ImageButton
-                        android:id="@+id/imageButton16"
+                        android:id="@+id/whiteTrainHand"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -126,16 +99,7 @@
                         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
                     <ImageButton
-                        android:id="@+id/imageButton18"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:scaleType="fitXY"
-                        app:srcCompat="@drawable/yello_train_v"
-                        tools:ignore="SpeakableTextPresentCheck" />
-
-                    <ImageButton
-                        android:id="@+id/imageButton17"
+                        android:id="@+id/wildTrainHand"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -203,6 +167,14 @@
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/black_train_h"
                 tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/white_train_h" />
 
             <ImageButton
                 android:id="@+id/imageButton7"
